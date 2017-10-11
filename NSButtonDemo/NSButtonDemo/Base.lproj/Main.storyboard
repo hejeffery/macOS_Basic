@@ -685,11 +685,12 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Window-NSButton" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="Window-NSButton" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" oneShot="NO" releasedWhenClosed="NO" showsToolbarButton="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
                         <rect key="screenRect" x="0.0" y="0.0" width="1680" height="1027"/>
+                        <contentBorderThickness minY="22"/>
                         <connections>
                             <outlet property="delegate" destination="B8D-0N-5wS" id="98r-iN-zZc"/>
                         </connections>
@@ -739,6 +740,7 @@
                             <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="Zyj-kK-NF6" secondAttribute="trailing" constant="20" symbolic="YES" id="65r-sw-b9H"/>
                             <constraint firstItem="Zyj-kK-NF6" firstAttribute="leading" secondItem="m2S-Jp-Qdl" secondAttribute="leading" constant="20" id="7ih-8f-lwE"/>
                             <constraint firstItem="tn8-vG-1ur" firstAttribute="height" secondItem="Zyj-kK-NF6" secondAttribute="height" id="XRR-mP-Nnr"/>
+                            <constraint firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="tn8-vG-1ur" secondAttribute="trailing" constant="20" symbolic="YES" id="XTB-cZ-vj9"/>
                             <constraint firstItem="tn8-vG-1ur" firstAttribute="top" secondItem="Zyj-kK-NF6" secondAttribute="top" id="hpO-kq-NcC"/>
                             <constraint firstItem="tn8-vG-1ur" firstAttribute="leading" secondItem="Zyj-kK-NF6" secondAttribute="trailing" constant="20" id="jDu-58-Kt1"/>
                         </constraints>
