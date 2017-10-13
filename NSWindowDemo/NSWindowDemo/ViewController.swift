@@ -27,6 +27,8 @@ class ViewController: NSViewController {
         configuringWindows()
         
         movingWindow()
+        
+        manageWindowLayer()
     }
 
     override var representedObject: Any? {
@@ -90,6 +92,12 @@ class ViewController: NSViewController {
     fileprivate func movingWindow() {
         // 是否能通过移动window的背景来移动window，默认是false
         mainWindow?.isMovableByWindowBackground = true
+    }
+    
+    // 管理window的layer
+    fileprivate func manageWindowLayer() {
+//        // window level
+//        mainWindow?.level = NSWindow.Level.floating
     }
 }
 
